@@ -1,0 +1,23 @@
+@media only screen and (max-width: 1199px) {
+	.container {width: 80%;}
+	.logo {width: 25%;}
+	.logo h1 {font-size: 27px;}
+	.nav-main li {padding: 40px;}
+}
+
+@media only screen and (max-width: 1030px) {
+	.nav-main li {padding: 30px;}
+    .logo {width: 20%;}
+    .logo h1 {font-size: 22px;}
+    .container {width: 90%;}
+}
+
+@media only screen and (max-width: 750px) {
+	.container {width: 80%;}
+	.logo {width: 15%;}
+	.logo h1 {font-size: 27px;}
+	.nav-main li {padding: 15px;}
+}
+
+
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
